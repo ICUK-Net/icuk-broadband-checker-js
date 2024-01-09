@@ -1,0 +1,23 @@
+{
+  "name": "icuk-broadband-checker-js",
+  "version": "1.0.0",
+  "description": "Integrate the ICUK broadband availability checker into your JS web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoronBGP/icuk-broadband-checker-js.git"
+  },
+  "author": "Ben Innes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BoronBGP/icuk-broadband-checker-js/issues"
+  },
+  "homepage": "https://github.com/BoronBGP/icuk-broadband-checker-js#readme",
+  "dependencies": {
+    "google-libphonenumber": "^3.2.33",
+    "needle": "^3.3.1"
+  }
+}

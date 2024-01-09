@@ -4,7 +4,7 @@ Integrate the ICUK broadband availability checker into your JS web application
 
 ## Usage
 
-This library is general use and takes in data and includes a class for rendering html/js to the client side (BroadbandAvailabilityChecker) and a function for proxying requests towards
+This library is general use (inputs through function parameters and outputs raw html so compatible with any web framework) and takes in data and includes a class for rendering html/js to the client side (BroadbandAvailabilityChecker) and a function for proxying requests towards
 the ICUK API (ApiProxy).
 
 To use this library an endpoint should be setup that points data towards ApiProxy through the parameter: 'apidata'
